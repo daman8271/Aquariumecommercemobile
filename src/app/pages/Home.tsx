@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router";
 import { ChevronDown, Star, Droplets, Wrench, Sparkles, ArrowRight, MapPin, Phone, Clock, Fish } from "lucide-react";
-import heroImage from "figma:asset/a508f6cf0149f3d50daabefb147e1f14c9f80a84.png";
 
 export function Home() {
   const navigate = useNavigate();
@@ -60,9 +59,9 @@ export function Home() {
 
       {/* ── HERO ─────────────────────────────────────────────── */}
       <section className="relative min-h-screen flex flex-col">
-        {/* Background — new clownfish image */}
+        {/* Background — clownfish image */}
         <img
-          src={heroImage}
+          src="https://images.pexels.com/photos/46792/clownfish-coral-reef-tropical-fish-46792.jpeg?auto=compress&cs=tinysrgb&w=1200"
           alt="Clownfish in coral reef"
           className="absolute inset-0 w-full h-full object-cover object-center"
         />
